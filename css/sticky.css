@@ -1,0 +1,12 @@
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+}
+
+@supports not(backdrop-filter: blur(3px)) {
+    .header {
+        background: rgba(245,245,245,0.35);
+    }
+}

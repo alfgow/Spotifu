@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/alfgow.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- OG -->
+  <meta property="og:title" content="Spotifu" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description"
+    content="Proyecto de Spotifu del Curso Flexbox Layout y Componentes de Leonidas Esteban" />
+  <meta property="og:url" content="https://alfonsovillanueva.github.io/spotifu/" />
+  <meta property="og:image" content="https://alfonsovillanueva.github.io/spotifu/images/spflogo.png" />
+
+  <title>Spotifu</title>
+</head>
+
+<body class="body">
+
+  <main class="page">
+
+    <!-- header -->
+    <div class="sticky">
+      <header class="header" aria-label="Barra Superior y Menu del usuario">
+
+        <!-- Navegacion -->
+        <div class="navigation">
+          <button class="navigationPrev" aria-label="Volver" title="Volver">
+            <i class="icon-arrowLeft" aria-hidden="true"></i>
+          </button>
+          <button disabled class="navigationNext" aria-label="Siguiente" title="Siguiente">
+            <i class="icon-arrowRight" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <!-- Formulario de búsqueda -->
+        <form class="search" role="search" aria-label="Buscar por artista, cancion o podcast">
+          <i class="icon-search" aria-hidden="true"></i>
+          <input type="search" placeholder="Buscar por artista, cancion o podcast">
+        </form>
+
+      </header>
+    </div>
+
+    <!-- Componente que Agrupa todas las Playlist superiores -->
+    <section class="playlistList" aria-labelledby="region1">
+
+      <!-- Contenedor de titulo y botones -->
+      <div class="playlistListTop">
+
+        <h2 class="playListListTitle" id="region1">Buenas noches</h2>
+        <div class="navigation">
+          <button class="navigationPrev" aria-label="Volver" title="Volver">
+            <i class="icon-arrowLeft" aria-hidden="true"></i>
+          </button>
+          <button disabled class="navigationNext" aria-label="Siguiente" title="Siguiente">
+            <i class="icon-arrowRight" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Contenedor de Listas -->
+      <div class="playListListContainer">
+
+        <!-- PlaylistB -->
+
+        <!-- alfgow -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab67706c0000da84f977592dd457803172411fff"
+              alt="Cover Playlist Dragon Ball Openings">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">alfgow</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Pokemon -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab67706c0000da8440d4e6fc6b8da0d396ceef66"
+              alt="Cover Playlist POKÉMON Playlist & Ambience">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">POKÉMON Playlist</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Viejo Marihuano -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab67616d0000b2731c30988545dcde2ee3e1ed17"
+              alt="Cover Playlist Viejo Marihuano">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">Viejo Marihuano</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Hombres G -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab6761610000e5eb04c4062671c216a926f425f2" alt="Cover Playlist Hombres G">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">Hombres G</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Lounge -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab67706f000000026fd34c1b062d8558b9a2d5c4"
+              alt="Cover Playlist Lounge - Soft House">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">Lounge - Soft House</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- La Iglesia esta en fuego -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab67616d0000b2734409099df576c2a04ba326c1"
+              alt="Cover Playlist La Iglesia Está en Fuego">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">La Iglesia Está en Fuego</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Ares -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab67706c0000da84b67ef031dd0e0e3520d68900"
+              alt="Cover Playlist Ares 2008-2012">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">Ares 2008-2012</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Mana Sueños Líquidos -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab67616d00001e022f770148868be769ff9f7a90" alt="Cover Sueños Líquidos">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">Sueños Líquidos</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Mana falta Amor -->
+        <div class="playlistB">
+
+          <!-- Contenedor de la Imágen -->
+          <div class="playlistBCover">
+            <img src="https://i.scdn.co/image/ab67616d00001e028f301c227a7a88dd9e9f0dc0" alt="Cover Falta Amor">
+          </div>
+
+          <!-- Detalles -->
+          <div class="playlistBDetails">
+
+            <!-- Titulo -->
+            <h3 class="playlistBTitle">Falta Amor</h3>
+
+            <!-- Boton -->
+            <div class="playlistBControl">
+              <button class="buttonIcon is-primary" aria-label="Reproducir Lista Dragon Ball">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <!-- Componente que Agrupa todas las Playlist Infreriores-->
+    <section class="playlistList" aria-labelledby="region2">
+
+      <!-- Contenedor de titulo y botones -->
+      <div class="playlistListTop">
+
+        <h2 class="playListListTitle" id="region2">Escuchado Recientemente</h2>
+        <div class="navigation">
+          <button class="navigationPrev" aria-label="Volver" title="Volver">
+            <i class="icon-arrowLeft" aria-hidden="true"></i>
+          </button>
+          <button disabled class="navigationNext" aria-label="Siguiente" title="Siguiente">
+            <i class="icon-arrowRight" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Contenedor de Listas -->
+      <div class="playListListContainer">
+
+        <!-- Emprendeduros -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/b176e8c1bce3569ae466edc6849c7c58fb69aa37" alt="Cover Emprendeduros">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">Emprendeduros</h3>
+          <h4 class="playlistADescription">Emprendeduros</h4>
+        </div>
+
+        <!-- La cotorrisa -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/ab67656300005f1fb72ed554ad388c7a71623cfe" alt="Cover La Cotorrisa">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">La Cotorrisa</h3>
+          <h4 class="playlistADescription">La Cotorrisa Podcast</h4>
+        </div>
+
+        <!-- Circulo de Traders -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/ab67656300005f1fe8e5ac6765c319784ab72168" alt="Cover Círculo de Traders">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">Círculo de Traders</h3>
+          <h4 class="playlistADescription">Adrian Villavicencio</h4>
+        </div>
+
+        <!-- Mente Millonaria -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/f1438b81c0d4c02122ea219656a9e6b7582b0d3a" alt="Cover Mente Millonaria">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">Mente Millonaria</h3>
+          <h4 class="playlistADescription">Jacqueline Lira Caussor</h4>
+        </div>
+
+        <!-- Franco Escamilla -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/ab67656300005f1f17ee02cef83ca1eee2a69604"
+              alt="Cover Franco Escamilla RPM 2021">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">Franco Escamilla</h3>
+          <h4 class="playlistADescription">Radio Comedia Latino HD</h4>
+        </div>
+
+        <!-- Otro Rollo -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/ab67656300005f1fb339eeb46525fd0732299908" alt="Cover Otro Rollo">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">Otro Rollo con Adal Ramones</h3>
+          <h4 class="playlistADescription">System Fail</h4>
+        </div>
+
+        <!-- Historias de Terror -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/ab67656300005f1fb4a310cb12e7c03f4bf34fbd" alt="Cover Relatos de la Noche">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">Relatos de la Noche</h3>
+          <h4 class="playlistADescription">Relatos de la Noche</h4>
+        </div>
+
+        <!-- Finanzas a la Mexicana -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/ab67656300005f1f94bb558e59445821f62a667b"
+              alt="Cover Finanzas a la Mexicana">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">Finanzas a la Mexicana</h3>
+          <h4 class="playlistADescription">Nacho Ruiz</h4>
+        </div>
+
+        <!-- Nadie Me pregunto -->
+        <div class="playlistA">
+
+          <!-- Contenedor de la Imagen y el Boton -->
+          <div class="playlistACover">
+            <img src="https://i.scdn.co/image/ab67656300005f1f32ae6f80ec076abd23bd54af" alt="Cover ¡Nadie Me Preguntó!">
+            <button class="buttonIcon is-primary" aria-label="Reproducir">
+              <i class="icon-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+
+          <h3 class="playlistATitle">¡Nadie Me Preguntó!</h3>
+          <h4 class="playlistADescription">Alejandro Salomon</h4>
+        </div>
+
+      </div>
+
+
+    </section>
+
+  </main>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <!-- Header / Logo Spotifu -->
+    <header class="logo">
+      <a href="/" aria-current="page">
+        <img class="logoImage" src="./images/spotifu-logo.png" alt="Logo de Spotifu" title="Logo de Spotifu">
+      </a>
+    </header>
+
+    <!-- Navegaciones -->
+    <nav class="menu" aria-label="Principal">
+      <ul class="menuList">
+        <li class="menuItem is-active">
+          <a href="/" class="link" aria-current="page">
+            <i class="icon-home" aria-hidden="true"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="menuList">
+        <li class="menuItem">
+
+          <a href="/" class="link" aria-current="page">
+
+            <i class="icon-search" aria-hidden="true"></i>
+            <span>Buscar</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="menuList">
+        <li class="menuItem">
+
+          <a href="/" class="link">
+
+            <i class="icon-creditCard" aria-hidden="true"></i>
+            <span>Premium</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="list" aria-labelledby="library-navigation">
+      <h2 class="listTitle" id="library-navigation">Tu biblioteca</h2>
+      <ul class="listContent">
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Creada Para Ti</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Escuchada Recientemente</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Tus me gusta</a>
+          </span>
+        </li>
+      </ul>
+    </nav>
+    <nav class="list" aria-labelledby="playlist-navigation">
+      <h2 class="listTitle" id="playlist-navigation">Playlists</h2>
+      <ul class="listContent">
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Top de Canciones 2021</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">DBZ al 100% para programar todo el dia</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Para cantar en la ducha</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Sin parar</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">DBZ openings</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Boku no pico</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">This is Pokémon</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Más populares de la semana para ti que eres un pro</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Mis pistas de shazam</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Audio Library</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Amor y Otras</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Latin</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Pokemon</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">Para Cantar</a>
+          </span>
+        </li>
+        <li class="listItem">
+          <span class="ellipsis">
+            <a href="#" class="link">#PPCDSALV</a>
+          </span>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <!-- Player -->
+  <div class="player">
+
+    <!-- Cancion Actual -->
+    <div class="player-nowPlaying">
+      <div class="nowPlaying">
+
+        <!-- Imagen de la Cancion Actual -->
+        <div class="nowPlaying-cover">
+          <img src="./images/grand-scape.jpg" alt="Portada de Cannabis de Cartel De Santa"
+            title="Portada de Cannabis de Cartel De Santa" />
+        </div>
+
+        <!-- Detalles de la Cancion Actual -->
+        <div class="nowPlaying-details">
+
+          <!-- Descripcion de la cancion actual -->
+          <div class="nowPlaying-description">
+            <a href="#Song" class="nowPlaying-title">Cannabis</a>
+            <a href="#Cartel De Santa" class="nowPlaying-artist">Cartel De Santa</a>
+          </div>
+
+          <!-- Acciones para la cancion actual -->
+          <div class="nowPlaying-actions">
+            <button aria-label="Guardar en tu biblioteca" role="switch" class="playerControl"
+              title="Guardar en tu biblioteca">
+              <i class="icon-heart" aria-hidden="true"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Player Controls -->
+    <div class="player-playerControls">
+      <div class="playerControls">
+
+        <!-- Buttons -->
+        <div class="playerControls-buttons" aria-label="Controles de Reproduccion">
+          <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+            <i class="icon-prev" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+            <i class="icon-next" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <!-- Player Playback -->
+        <div class="playerPlayback">
+          <span class="playerPlayback-progressTime">01:12</span>
+          <!-- Slider -->
+          <div class="playerPlayback-slider">
+            <div class="slider">
+              <div class="sliderProgress">
+                <button aria-label="Controlar el progreso de la reproduccion" class="sliderButton"></button>
+              </div>
+            </div>
+          </div>
+          <span class="playerPlayback-progressTime">03:25</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Player Volumen -->
+    <div class="player-playerVolumen">
+      <div class="playerVolumen">
+        <button aria-label="Silenciar" aria-describedby="volumen-icon" class="playerControl">
+          <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen Alto"></i>
+        </button>
+        <!-- Slider del Volumen -->
+        <div class="playerVolumen-slider">
+          <div class="slider">
+            <div class="sliderProgress">
+              <button aria-label="Controlar el progreso de la reproduccion" class="sliderButton"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

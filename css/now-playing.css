@@ -1,0 +1,33 @@
+.nowPlaying {
+    display: flex;
+    gap: .5rem;
+}
+
+.nowPlaying-details {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nowPlaying-cover img {
+    inline-size: 3.5rem;
+    aspect-ratio: 1/1;
+    vertical-align: middle;
+}
+
+.nowPlaying-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.nowPlaying-title {
+    color: var(--white);
+    font: var(--baseFontBold);
+    text-decoration: none;
+}
+
+.nowPlaying-artist {
+    color: var(--gray10);
+    font: var(--small);
+    text-decoration: none;
+}

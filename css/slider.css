@@ -1,0 +1,37 @@
+
+.slider {
+    /* inline-size: 12.5rem; */
+    block-size: .25rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: .25rem;
+}
+
+.sliderProgress {
+    max-inline-size: 50%;
+    background: var(--white);
+    block-size: inherit;
+    border-radius: inherit;
+    position: relative;
+}
+
+.sliderButton {
+    background: var(--white);
+    padding: 0;
+    border: none;
+    block-size: 200%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+    left: 100%; /* Se coloca al 100% del padre */
+    top: 50%; /* Se mueve 50% de su mismo tamano */
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.slider:hover .sliderProgress {
+    background: var(--primary);
+}
+
+.slider:hover .sliderButton {
+    display: block;
+}
