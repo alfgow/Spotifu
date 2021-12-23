@@ -8,6 +8,7 @@
 @import url(./player.css);
 @import url(./page.css);
 @import url(./scrollbar.css);
+@import url(./layout.css);
 
 :root {
   font-size: 16px;
