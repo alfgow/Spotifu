@@ -1,0 +1,21 @@
+.playlistCentralSongs {
+	margin-block-start: 1.71rem;
+	display: flex;
+	padding-inline-start: 1.14rem;
+	justify-content: space-between;
+	color: var(--white);
+}
+
+.playlistCentrlalTitleSong {
+	margin-inline-start: -25rem;
+}
+
+.playlistCentrlalTitleSong span {
+	color: var(--gray10);
+}
+
+.playlistCentrlalDuration {
+	display: flex;
+	align-self: center;
+	inline-size: 5rem;
+}

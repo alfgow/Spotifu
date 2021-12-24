@@ -1,0 +1,43 @@
+.userContainer {
+	display: flex;
+	background: var(--gray60);
+	inline-size: 12.85rem;
+	block-size: 2rem;
+	border-radius: 2rem;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.userContainer p {
+	color: var(--white);
+	font-size: 1.25rem;
+}
+
+.userContainerName {
+	display: flex;
+	align-items: center;
+	inline-size: 7.625rem;
+	block-size: 1.25rem;
+	margin-inline-start: 0.285rem;
+}
+
+.userContainerVector {
+	align-self: center;
+}
+
+.header .vector {
+	color: var(--white);
+	font-size: 0.385rem;
+}
+
+.header .userPicture {
+	inline-size: 1.75rem;
+	block-size: 1.75rem;
+	border-radius: 50%;
+}
+
+.userContainerImg {
+	display: flex;
+	align-items: center;
+	margin: -1rem;
+}

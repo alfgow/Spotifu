@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/alfgow.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- OG -->
+  <meta property="og:title" content="Spotifu" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description"
+    content="Proyecto de Spotifu del Curso Flexbox Layout y Componentes de Leonidas Esteban" />
+  <meta property="og:url" content="https://alfonsovillanueva.github.io/spotifu/" />
+  <meta property="og:image" content="https://alfonsovillanueva.github.io/spotifu/images/spflogo.png" />
+
+  <title>Spotifu</title>
+</head>
+
+<body class="body">
+
+  <div class="layout">
+
+    <!-- !slider y main page -->
+    <div class="layoutBlock">
+
+      <!-- !Sidebar -->
+      <div class="layoutSidebar">
+        <div class="sidebar">
+
+          <!-- Header / Logo Spotifu -->
+          <header class="logo">
+            <a href="/" aria-current="page">
+              <img class="logoImage" src="./images/spotifu-logo.png" alt="Logo de Spotifu" title="Logo de Spotifu">
+            </a>
+          </header>
+
+          <!-- Navegaciones -->
+          <nav class="menu" aria-label="Principal">
+            <ul class="menuList">
+              <li class="menuItem is-active">
+                <a href="index.html" class="link" aria-current="page">
+                  <i class="icon-home" aria-hidden="true"></i>
+                  <span>Inicio</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="menuList">
+              <li class="menuItem">
+
+                <a href="/" class="link" aria-current="page">
+
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <span>Buscar</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="menuList">
+              <li class="menuItem">
+
+                <a href="/" class="link">
+
+                  <i class="icon-creditCard" aria-hidden="true"></i>
+                  <span>Premium</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="library-navigation">
+            <h2 class="listTitle" id="library-navigation">Tu biblioteca</h2>
+            <ul class="listContent">
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Creada Para Ti</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Escuchada Recientemente</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Tus me gusta</a>
+                </span>
+              </li>
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="playlist-navigation">
+            <h2 class="listTitle" id="playlist-navigation">Playlists</h2>
+            <ul class="listContent">
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">#PPCDSALV</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Top de Canciones 2021</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">DBZ al 100% para programar todo el dia</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Para cantar en la ducha</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Sin parar</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">DBZ openings</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Boku no pico</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">This is Pokémon</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Más populares de la semana para ti que eres un pro</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Mis pistas de shazam</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Audio Library</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Amor y Otras</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Latin</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Pokemon</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">Para Cantar</a>
+                </span>
+              </li>
+
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">#PPCDSALV</a>
+                </span>
+              </li>
+              <li class="listItem">
+                <span class="ellipsis">
+                  <a href="#" class="link">#PPCDSALV</a>
+                </span>
+              </li>
+
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+
+      <!-- !Pagina -->
+      <div class="layoutMain">
+        <div class="page2">
+          <div class="sticky">
+
+            <div class="pageBlock">
+              <!-- !header -->
+              <header class="header" aria-label="Barra Superior y Menu del usuario">
+
+                <!-- !Navegacion -->
+                <div class="navigation">
+                  <button class="navigationPrev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button disabled class="navigationNext" aria-label="Siguiente" title="Siguiente">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <!-- !Formulario de búsqueda -->
+                <!-- <form class="search" role="search" aria-label="Buscar por artista, cancion o podcast">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <input type="search" placeholder="Buscar por artista, cancion o podcast">
+                </form> -->
+
+                <!-- !usuario -->
+                <div class="user">
+                  <div class="userContainer">
+                    <div class="userContainerImg">
+                      <img
+                        src="https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10152367296419917&height=50&width=50&ext=1642866482&hash=AeTKt-mEnKccN_lHGbg"
+                        alt="" class="userPicture">
+                    </div>
+                    <div class="userContainerName">
+                      <p>Alfgow</p>
+                    </div>
+                    <div class="userContainerVector">
+                      <i class="icon-vector vector"></i>
+                    </div>
+                  </div>
+
+                </div>
+
+              </header>
+            </div>
+          </div>
+
+          <main class="pageBlockContainer">
+
+            <!-- !Header lista central -->
+            <div class="playlistHeader">
+              <div class="playlistHeaderImage">
+                <img src="https://i.scdn.co/image/ab67616d00001e021c30988545dcde2ee3e1ed17" alt="">
+              </div>
+              <div class="playlistHeaderDetails">
+                <div class="playlistHeaderTitle">
+                  <span>Album</span>
+                  <h1>Viejo Marihuano</h1>
+                </div>
+                <div class="playlistHeaderDescription">
+                  <p>Cartel de Santa &nbsp;</p>
+                  <p>&#8226; 2016 &#8226; 11 Canciones, 40 min 40 s</p>
+
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="playlistCentral">
+              <div class="playlistCentralReproducir">
+                <button class="buttonIcon is-primary" aria-label="Reproducir Viejo Marihuano">
+                  <i class="icon-play" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="playlistCentralLike">
+                <button aria-label="Guardar en tu biblioteca" role="switch" aria-checked="true" class="playerControl"
+                  title="Guardar en tu biblioteca">
+                  <i class="icon-heart" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="playlistCentralOptions">
+                <p>&#8226; &#8226; &#8226;</p>
+              </div>
+
+            </div>
+
+            <!-- !header lista -->
+            <div class="playlistCentralTableTop">
+              <div class="playlistCentrlalNumber">
+                <p>#</p>
+              </div>
+              <div class="playlistCentrlalTitle">
+                <p>Titulo</p>
+              </div>
+              <div class="playlistCentrlalTime">
+                <i class="icon-clock"></i>
+              </div>
+
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>1</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Volvió el Sensei</p>
+                <span>🅴 Cartel de Santa</span>
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:24</p>
+              </div>
+
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>2</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Leve</p>
+                <span>🅴 Cartel de Santa</span>
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:45</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>3</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Bailar y Volar</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>4:16</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>4</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Desde Cuándo</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:35</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>5</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Clika Nostra</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:36</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>6</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Mucha Marihuana</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:48</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>7</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Culón Culito</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:43</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>8</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>El Loco Más Loco</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>4:02</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>9</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Si Estuviera en Dubái</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:21</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>10</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Somos Chidos</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:31</p>
+              </div>
+            </div>
+
+            <!--! cancion en la lista -->
+            <div class="playlistCentralSongs">
+              <div class="playlistCentrlalNumberSong">
+                <p>11</p>
+              </div>
+              <div class="playlistCentrlalTitleSong">
+                <p>Soy Quien Soy</p>
+                <span>🅴 Cartel de Santa</span>
+
+              </div>
+              <div class="playlistCentrlalDuration">
+                <p>3:33</p>
+              </div>
+            </div>
+
+
+          </main>
+
+
+
+        </div>
+      </div>
+
+      <!-- !footer -->
+    </div>
+    <div class="layoutBlock"></div>
+
+
+    <footer class="layoutBottom">
+
+      <!-- !Player -->
+      <div class="player">
+
+        <!-- Cancion Actual -->
+        <div class="player-nowPlaying">
+          <div class="nowPlaying">
+
+            <!-- Imagen de la Cancion Actual -->
+            <div class="nowPlaying-cover">
+              <img src="./images/grand-scape.jpg" alt="Portada de Cannabis de Cartel De Santa"
+                title="Portada de Cannabis de Cartel De Santa" />
+            </div>
+
+            <!-- Detalles de la Cancion Actual -->
+            <div class="nowPlaying-details">
+
+              <!-- Descripcion de la cancion actual -->
+              <div class="nowPlaying-description">
+                <a href="#Song" class="nowPlaying-title">Cannabis</a>
+                <a href="#Cartel De Santa" class="nowPlaying-artist">Cartel De Santa</a>
+              </div>
+
+              <!-- Acciones para la cancion actual -->
+              <div class="nowPlaying-actions">
+                <button aria-label="Guardar en tu biblioteca" role="switch" aria-checked="false" class="playerControl"
+                  title="Guardar en tu biblioteca">
+                  <i class="icon-heart" aria-hidden="true"></i>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Player Controls -->
+        <div class="player-playerControls">
+          <div class="playerControls">
+
+            <!-- Buttons -->
+            <div class="playerControls-buttons" aria-label="Controles de Reproduccion">
+              <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                <i class="icon-prev" aria-hidden="true"></i>
+              </button>
+              <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+              <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                <i class="icon-next" aria-hidden="true"></i>
+              </button>
+            </div>
+
+            <!-- Player Playback -->
+            <div class="playerPlayback">
+              <span class="playerPlayback-progressTime">01:12</span>
+              <!-- Slider -->
+              <div class="playerPlayback-slider">
+                <div class="slider">
+                  <div class="sliderProgress">
+                    <button aria-label="Controlar el progreso de la reproduccion" class="sliderButton"></button>
+                  </div>
+                </div>
+              </div>
+              <span class="playerPlayback-progressTime">03:25</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Player Volumen -->
+        <div class="player-playerVolumen">
+          <div class="playerVolumen">
+            <button aria-label="Silenciar" aria-describedby="volumen-icon" class="playerControl">
+              <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen Alto"
+                aria-hidden="true"></i>
+            </button>
+            <!-- Slider del Volumen -->
+            <div class="playerVolumen-slider">
+              <div class="slider">
+                <div class="sliderProgress">
+                  <button aria-label="Controlar el progreso de la reproduccion" class="sliderButton"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  </div>
+
+
+</body>
+
+</html>

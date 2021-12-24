@@ -1,0 +1,30 @@
+@import url(./playlistCentralSongs.css);
+
+.playlistCentral {
+	margin-block-start: 2rem;
+	display: flex;
+	gap: 0.75rem;
+}
+
+.playlistCentral button {
+	block-size: 4rem;
+	inline-size: 4rem;
+}
+
+.playlistCentralTableTop {
+	margin-block-start: 1.71rem;
+	display: flex;
+	padding-inline-start: 1.14rem;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--gray30);
+}
+
+.playlistCentrlalTitle {
+	margin-inline-start: -30rem;
+}
+
+.playlistCentrlalTime {
+	display: flex;
+	align-self: center;
+	inline-size: 5rem;
+}

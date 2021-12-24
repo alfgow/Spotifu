@@ -1,0 +1,29 @@
+@import url(./playlistCentral.css);
+
+.playlistHeader {
+	display: flex;
+	block-size: 12.86rem;
+}
+
+.playlistHeaderImage img {
+	block-size: 12.86rem;
+}
+
+.playlistHeaderTitle h1 {
+	font: var(--headline1);
+	font-size: 3.15rem;
+	color: var(--white);
+	margin: 0;
+}
+
+.playlistHeaderDescription {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.playlistHeaderDetails {
+	display: flex;
+	flex-direction: column;
+	margin-inline-start: 1.7rem;
+	justify-content: flex-end;
+}
