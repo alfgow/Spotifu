@@ -1,4 +1,12 @@
+:root {
+	--sideBarInlineSize: 15rem;
+	--minBlockSize: 37.5rem;
+	--minInlineSize: 48rem;
+	--bottomSize: 5.5rem;
+}
+
 .playlistCentralSongs {
+	min-inline-size: var(--minInlineSize);
 	margin-block-start: 1.71rem;
 	display: flex;
 	padding-inline-start: 1.14rem;
